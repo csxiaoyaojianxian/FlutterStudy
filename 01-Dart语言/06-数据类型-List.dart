@@ -1,5 +1,8 @@
 void main () {
-  // 【 3.List 】
+  // 【 4.List 】
+  // [] length
+  // add insert remove clear indexOf lastIndexOf sort sublist shuffle asMap forEach
+
   // 方式1
   var list1 = [1,2,3,"Dart",true];
   print(list1); // [1, 2, 3, Dart, true]
@@ -18,21 +21,15 @@ void main () {
   print(list.length);
   list.add("New");
   print(list);
-
   list.insert(1, "Java");
   print(list);
-
   list.remove("Java");
   print(list);
-
   // list.clear();
   // print(list);
-
   print(list.indexOf("dart1"));
   list.sort();
   print(list);
-
   print(list.sublist(1));
-
   list.forEach(print);
 }
